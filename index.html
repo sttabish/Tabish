@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabish Hussain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/f2b50825ee.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/ico" href="sitelogo.ico">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://kit.fontawesome.com/f2b50825ee.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+
+        <div id="home">
+            <img data-aos="zoom-in-left" data-aos-delay="150" src="image/NAME logo.png" class="logo">
+            <div id="nav-part2">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header" data-aos="zoom-in-left" data-aos-delay="300">Home</a></li>
+                        <li><a href="#about" data-aos="zoom-in-left" data-aos-delay="450">About</a></li>
+                        <li><a href="#services" data-aos="zoom-in-left" data-aos-delay="600">Services</a></li>
+                        <li><a href="#projects" data-aos="zoom-in-left" data-aos-delay="750">Projects</a></li>
+                        <li><a href="#portfolio" data-aos="zoom-in-left" data-aos-delay="900">Portfolio</a></li>
+                        <li><a href="#contact" data-aos="zoom-in-left" data-aos-delay="1050">contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+            <div id="nav-part3">
+                <div id="circle">
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="page">
+            <div class="header-text" data-aos="fade-right" data-aos-delay="300">
+                <div id="loop">
+                    <h1><b>HI,</b>I'M MOHD <b><i>TABISH</i></b> <span>HUSSAIN</span> FROM<span><i>INDIA.</i></span>
+                    </h1>
+                    <h1><b>HI,</b>I'M MOHD <b><i>TABISH</i></b> <span>HUSSAIN</span> FROM<span><i>INDIA.</i></span>
+                    </h1>
+                    <h1><b>HI,</b>I'M MOHD <b><i>TABISH</i></b> <span>HUSSAIN</span> FROM<span><i>INDIA.</i></span>
+                    </h1>
+
+                </div>
+            </div>
+            <div id="hero" class="hero" data-aos="fade-left" data-aos-delay="600">
+                <img src="image/newlog2-removebg.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" data-aos="fade-right" data-aos-delay="300">
+                    <img src="image/aboutme.svg">
+                </div>
+                <div class="about-col-2" data-aos="fade-left" data-aos-delay="600">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Passionate Web Developer with an experience in building innovative and user-centric web
+                        applications.
+                        Proficient in a wide range of programming languages and technologies, and committed to
+                        delivering high-quality, scalable, and responsive web solutions that empower businesses and
+                        enhance user experiences.</p>
+                    <br>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <br>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Develop The Web Page</li>
+                            <li><span>Digital Marketing</span><br>Online Marketing Expert</li>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Programming languages</span><br>HTML, CSS, JAVASCRIPT, React, Angular, PHP</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>CodeAlpha Feb 2024 - May 2024 </span><br> Full Stack Web Development Intern</li>
+                            <li><span>DESINZIDEAZ 2024-current</span><br>Full Stack Web development using react.js,
+                                react native and angular.Created Front-End and Back-End based projects and complete
+                                website</li>
+                            <li><span>2023-current</span><br>web Development working on it.</li>
+                            <li><span>2021-2022</span><br>Digital marketing.</li>
+                            <li><span>2023-current</span><br>UI/UX Design working on it.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-24-current</span><br>Electrical Engineering from Goverment Engineering
+                                college of Aurangabad</li>
+                            <li><span>2020</span><br>Intermidiate form Millat college Darbhanga</li>
+                            <li><span>2018</span><br>Matriculation from Woodbine Mordern School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills and Expertise</h1>
+            <div class="services-list">
+                <div class="pro" data-aos="fade-up" data-aos-delay="150">
+                    <img src="image/frontend pic.jpg" alt="">
+                    <i class="fa-solid fa-code"> &nbsp;Front-End Development</i>
+                    <!-- <h2>Front-End Development</h2> -->
+                    <p> I have in-depth knowledge of HTML, CSS, and JavaScript, along with frameworks like React and
+                        Angular. I excel in creating responsive and dynamic web interfaces.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="pro" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://cdn.gamma.app/ynsvlbkajsu1cw6/generated-images/tFShvyB9BIgbspzL.jpg" alt="">
+                    <i class="fa-solid fa-tachograph-digital">&nbsp;Digital Marketing</i>
+                    <h2></h2>
+                    <p>Results-driven digital marketer with expertise in developing and executing data-driven strategies
+                        to drive online brand presence, customer acquisition. Proficient in
+                        leveraging various digital channels, including social media, SEO, SEM, and email marketing.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="pro" data-aos="fade-up" data-aos-delay="450">
+                    <img src="image/uiux.jpg" alt="">
+                    <i class="fa-solid fa-crop-simple"> &nbsp;UI/UX Design</i>
+                    <!-- <h2>UI/UX Design</h2> -->
+                    <p>My design skills allow me to craft captivating user experiences by focusing on usability and
+                        aesthetics. I create wireframes and mockups that enhance user engagement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------my projects---- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div class="pro" data-aos="fade-up" data-aos-delay="150">
+                    <img src="image/apple.png">
+                    <div class="layer">
+                        <h3>Apple vision pro clone</h3>
+                        <p></p>
+                        <a href="https://vision-pro-clone.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro" data-aos="fade-up" data-aos-delay="300">
+                    <img src="image/fashion.png">
+                    <div class="layer">
+                        <h3>Fashion Lookbook</h3>
+                        <p></p>
+                        <a href="https://isha-fashion.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro" data-aos="fade-up" data-aos-delay="450">
+                    <img src="image/event.png">
+                    <div class="layer">
+                        <h3>Event Planning</h3>
+                        <p></p>
+                        <a href="https://sttabish.github.io/CodeAlpha_Event_Planning/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="pro" data-aos="fade-up" data-aos-delay="600">
+                    <img src="image/rayban.png">
+                    <div class="layer">
+                        <h3>Rayban</h3>
+                        <p></p>
+                        <a href="https://sttabish.github.io/Rayban/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro" data-aos="fade-up" data-aos-delay="750">
+                    <img src="image/net home.png">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p></p>
+                        <a href="https://netflix-clone-home-pg.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro" data-aos="fade-up" data-aos-delay="900">
+                    <img src="image/weather.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p></p>
+                        <a href="https://sttabish.github.io/CodeAlpha_Weather_dashboard/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" data-aos="fade-up" data-aos-delay="600" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------porfolio---- -->
+    <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/web1.avif">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connect you to the talented people around the world.Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/web2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>the app connect you to the talented people around the world.Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/web5.webp">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>the app connect you to the talented people around the world.Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div> -->
+    <!-- -----contact---- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Tab.8bp@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7546926262</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/tab.isha.313"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/TabishH71573150"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/st.tabish_"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tabish-hussain-0722b5269/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sttabish"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Tabish Resume updated.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right" data-aos="fade-left" data-aos-delay="600">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Tabish. Made by<i class="fa-solid fa-heart"></i> with easy tutorials</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script src="js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+    </script>
+
+    <script>
+        let navbar = document.querySelector('.header .navbar');
+        document.querySelector('#menu-btn').onclick = () => {
+            navbar.classlist.toggle('active');
+        }
+        window.onscroll = () => {
+            navbar.classlist.remove('active');
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+        integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
